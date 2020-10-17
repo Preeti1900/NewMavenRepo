@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="LAPTOP-N5U8LD2C" name="com.NewMaven.NewMaven.A" tests="1" failures="1" timestamp="5 Oct 2020 19:46:20 GMT" time="0.048" errors="0">
-  <testcase name="aTest" time="0.027" classname="com.NewMaven.NewMaven.A">
-    <failure type="java.lang.AssertionError" message="expected:&amp;lt;true&amp;gt; but was:&amp;lt;false&amp;gt;">
-      <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
-	at com.NewMaven.NewMaven.A.aTest(A.java:12)
-... Removed 29 stack frames]]>
+<testsuite hostname="LAPTOP-N5U8LD2C" name="com.NewMaven.NewMaven.A" tests="4" failures="1" timestamp="17 Oct 2020 19:22:28 GMT" time="3.238" errors="0">
+  <testcase name="aTest" time="0.001" classname="com.NewMaven.NewMaven.A"/>
+  <testcase name="bTest" time="0.001" classname="com.NewMaven.NewMaven.B"/>
+  <testcase name="cTest" time="0.002" classname="com.NewMaven.NewMaven.C"/>
+  <testcase name="cssSelect" time="3.226" classname="com.NewMaven.NewMaven.CssSelectorNew">
+    <failure type="org.openqa.selenium.SessionNotCreatedException" message="session not created: This version of ChromeDriver only supports Chrome version 84
+  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.05 seconds
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1cd5757287168e54b817830adce9b0158d&amp;apos;, time: &amp;apos;2016-06-30 19:26:09&amp;apos;
+System info: host: &amp;apos;LAPTOP-N5U8LD2C&amp;apos;, ip: &amp;apos;192.168.0.11&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_251&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver">
+      <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 84
+  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.05 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-N5U8LD2C', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.NewMaven.NewMaven.CssSelectorNew.cssSelect(CssSelectorNew.java:13)
+... Removed 30 stack frames]]>
     </failure>
   </testcase>
 </testsuite>

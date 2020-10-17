@@ -3,9 +3,9 @@
 <suite name="Failed suite [Suite]">
   <test name="Test(failed)" preserve-order="false">
     <classes>
-      <class name="com.NewMaven.NewMaven.A">
+      <class name="com.NewMaven.NewMaven.CssSelectorNew">
         <methods>
-          <include name="aTest"/>
+          <include name="cssSelect"/>
         </methods>
       </class>
     </classes>
